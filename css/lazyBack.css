@@ -1,0 +1,14 @@
+div {
+  margin: 900px auto 0;
+  width: 247px;
+  height: 231px;
+}
+.lazy-background {
+  filter: blur(0.2em);
+  background: url(../images/placeholder.png) no-repeat center;
+}
+.lazy-background.visible {
+  filter: blur(0);
+  transition: filter 0.5s;
+  background: url(../images/real.png);
+}
