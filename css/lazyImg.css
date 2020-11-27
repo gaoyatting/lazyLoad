@@ -1,0 +1,14 @@
+.container {
+  width: 900px;
+  height: 900px;
+  margin: 900px auto 0;
+}
+
+img.lazy {
+  filter: blur(0.2em);
+}
+
+img {
+  filter: blur(0);
+  transition: filter 0.5s;
+}
